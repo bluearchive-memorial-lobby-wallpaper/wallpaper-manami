@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "kind": "pipeline-binary-package",
+  "immutable": true,
+  "variantId": "default",
+  "canonicalId": "manami-default",
+  "studentId": "manami",
+  "runId": "run-000000000316",
+  "runInfo": {
+    "alias": "create-prepare-and-acceptance",
+    "stages": [
+      "resolve-identity",
+      "create-repository",
+      "initialize-template",
+      "acquire-resources",
+      "prepare-assets",
+      "validate-structure",
+      "generate-description",
+      "build",
+      "static-test",
+      "browser",
+      "preview",
+      "visual-metadata",
+      "wallpaper-engine",
+      "package-check",
+      "gate-publish",
+      "official-editor-pre-submit",
+      "official-editor-ui-pre-submit",
+      "official-editor-submit",
+      "tag-workshop",
+      "publish-repository",
+      "push-github",
+      "add-to-collection",
+      "release-finalize"
+    ]
+  },
+  "versionTag": "v1.0.0",
+  "projectId": "wallpaper-manami",
+  "package": {
+    "name": "manami-wallpaper",
+    "version": "1.0.0"
+  },
+  "files": [
+    {
+      "path": "assets/index-Cs0-ZkID.js",
+      "sha256": "646c5af9fea6f1b058f9e81d5b33468b4e4c84dd61a2b6e149281b86c32c66fd",
+      "size": 152605
+    },
+    {
+      "path": "assets/index-Dvrd4XH3.css",
+      "sha256": "7edd305a4bec7d64c5dd9193116f29e99151cbc63cf52bd0f2ecf1be9e02bcf6",
+      "size": 11894
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_1_1.ogg",
+      "sha256": "d2cb36aa45007adc519854388d008f886fd9460d02479de872ea7befc54bb02b",
+      "size": 37199
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_1_2.ogg",
+      "sha256": "0c5a08fc81cd39ddcfe090ae34912964b6622115fcb421b3e66d19275abd8a9b",
+      "size": 46903
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_2_1.ogg",
+      "sha256": "f45e53af3a46aa594a1ee6c2c1a57165fe86af1ea94e916bb45ce665fda0db7a",
+      "size": 42860
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_2_2.ogg",
+      "sha256": "3d9faaee0905e4b91546feabc258d63459d027c17e2a36a3098ead4327043938",
+      "size": 37694
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_2_3.ogg",
+      "sha256": "481e0e6800d9fe39bc48599fc585d0a3997fc68e8bf724a4e11a825b9bd676f6",
+      "size": 32015
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_3_1.ogg",
+      "sha256": "e7f8508d3d4fae16a2c2564b851982532e66c7b649d5c918c40c1ee4d717981c",
+      "size": 20159
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_3_2.ogg",
+      "sha256": "e36992bee1e0b04b88d651cb82465414279feaef88dcf423fa03ddded88cc82a",
+      "size": 27271
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_3_3.ogg",
+      "sha256": "ce11ddacd7481d2241696f6a52837f1f182ae5959ef6c07cdf061c866d22f732",
+      "size": 50357
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_4_1.ogg",
+      "sha256": "2b55975f291a026f3e171098b71f199f44c150d28a37ef6f39681819873287cf",
+      "size": 35302
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_4_2.ogg",
+      "sha256": "6dfee1fb0b971744ad3d24574e02c1119b446712d9918c872bcab5172c8f12d9",
+      "size": 38177
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_4_3.ogg",
+      "sha256": "485d1fc04f43ad509345a5968e1acd408e36c283e6a9a252a1d88879372a4dd1",
+      "size": 32444
+    },
+    {
+      "path": "assets/manami/audio/ja/ch0339_memoriallobby_4_4.ogg",
+      "sha256": "e8871c31a950f60907ea5b6a7a35f5c531a1f837961343f9061c3bb2364cec1d",
+      "size": 33312
+    },
+    {
+      "path": "assets/manami/bgm/my-character-bgm.flac",
+      "sha256": "dc0dcff667cfe0762d3c10dced8dd181fa3432e0a63b8a2e3e2f526e692cb79b",
+      "size": 1118672
+    },
+    {
+      "path": "assets/manami/model-4k/CH0339_home_2.png",
+      "sha256": "b25f3104a11e662a082a512d23a86741bd578169fdd986a06bb682c8efeef424",
+      "size": 10692589
+    },
+    {
+      "path": "assets/manami/model-4k/CH0339_home.png",
+      "sha256": "a0bbcdd2ab178277ed83e1e79830fc1b83c45494392bc85dc925e76ce3899ac5",
+      "size": 13823174
+    },
+    {
+      "path": "assets/manami/model-4k/my-character.atlas",
+      "sha256": "e4f57aca483743935fbd1f2fe1d28b3654e99654c0898fa37fca35d86a6ce8bd",
+      "size": 19270
+    },
+    {
+      "path": "assets/manami/model-8k/CH0339_home_2.png",
+      "sha256": "370adb8d3445294ea85855b301ce64044b177247917f38dfd262f7063f9fd84c",
+      "size": 31478850
+    },
+    {
+      "path": "assets/manami/model-8k/CH0339_home.png",
+      "sha256": "8ec68e5328fa9b3a7b7ab8757a43d41d7c4c7564eb1926537a8b5935e294e839",
+      "size": 42017092
+    },
+    {
+      "path": "assets/manami/model-8k/my-character.atlas",
+      "sha256": "82e5526ce94f2f8e6e9143d36e2f4bad965854165290abb76f9e1b8699123b9c",
+      "size": 19809
+    },
+    {
+      "path": "assets/manami/model/CH0339_home_2.png",
+      "sha256": "a3aa17f54ce7c22ca7dfc5e4ff9c07df8eb5bb1cb534fed6790889f087ab604d",
+      "size": 2760476
+    },
+    {
+      "path": "assets/manami/model/CH0339_home.png",
+      "sha256": "97bd09cb823eaeb6303f8882898e457bde2dd374cb9c92387c4329dfbe15903f",
+      "size": 3054142
+    },
+    {
+      "path": "assets/manami/model/my-character.atlas",
+      "sha256": "69e5e4389b02dd55e3053e9efff685356c2fdeb4f670db83a4def290b303be13",
+      "size": 16331
+    },
+    {
+      "path": "assets/manami/model/my-character.skel",
+      "sha256": "de8236a262b1f50c8fa8e087e9190706b84cd627113286662bcd31b7276af3e9",
+      "size": 1636396
+    },
+    {
+      "path": "index.html",
+      "sha256": "60d4eb34c23a02485edfd941d388a5e488bea0850ecb88e299faa290d0fe7f88",
+      "size": 579
+    },
+    {
+      "path": "logging-bootstrap.js",
+      "sha256": "241c98017502d02e3f2dfc874d3bd57a7899d4da6a45c21090bef3953cc98eef",
+      "size": 7693
+    },
+    {
+      "path": "OFFLINE-README.txt",
+      "sha256": "2b61f17f669b10d0777c01f1872e4077aca98d9e793f24036a573486e955a142",
+      "size": 1177
+    },
+    {
+      "path": "preview.gif",
+      "sha256": "a6e7e5dca349bf2220b3645c6e8c0e8617ada3dba6013e9cb3f0956f1c537510",
+      "size": 852198
+    },
+    {
+      "path": "project.json",
+      "sha256": "e48d6da4e6aeb20c9d1797188413c531a9f312db1643b6f532f7a503c40b3560",
+      "size": 16409
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "sha256": "aa6382fc728b8ecdf735dc4c5945267e69e3d404320ba873eb7ed58c6d035db1",
+      "size": 1507
+    },
+    {
+      "path": "vendor/spine-webgl-4.2.js",
+      "sha256": "faccf252486de234c69a045aa6024b6688ded578eff09103607adfaedd7752b6",
+      "size": 554544
+    }
+  ],
+  "contentDigest": "8c19695e00ec83de93d4cb272b4d78199a38de3a4af770a8a182317e8fa2eaa8",
+  "manifestDigest": "47661bfc9f02757f86785dec6162e407f4fc2fa90898228ecc9139eea6d7aa18"
+}
